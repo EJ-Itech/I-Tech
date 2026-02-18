@@ -24,7 +24,16 @@ export default function Services() {
       icon: <Database className="w-6 h-6" />,
       description:
         "Architecting robust server-side logic and optimized database schemas for scalable applications.",
-      skills: ["Node.js", "Laravel", "Firebase", "PostgreSQL", "MongoDB"],
+      skills: [
+        "Node.js",
+        "Laravel",
+        "Vanilla PHP",
+        "Firebase",
+        "MongoDB",
+        "Supabase",
+        "SQL/PostgreSQL",
+        "Redis",
+      ],
       color: "from-emerald-500/20",
     },
     {
@@ -46,7 +55,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-24 px-6 bg-white dark:bg-[#050505]">
+    <section id="services" className="py-24 px-6 bg-gray-50 dark:bg-[#050505]">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
