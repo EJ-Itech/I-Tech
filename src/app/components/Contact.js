@@ -128,12 +128,12 @@ export default function Contact() {
                   {/* Name */}
                   <div className="space-y-2">
                     <label className="text-xs font-bold text-gray-400 uppercase tracking-widest ml-1">
-                      Name
+                      Email Address
                     </label>
                     <input
                       name="name"
                       required
-                      type="text"
+                      type="email"
                       placeholder="John Doe"
                       className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none text-white transition-all placeholder:text-gray-600"
                     />
