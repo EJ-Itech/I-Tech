@@ -134,7 +134,7 @@ export default function Contact() {
                       name="name"
                       required
                       type="email"
-                      placeholder="John Doe"
+                      placeholder="your.email@example.com"
                       className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none text-white transition-all placeholder:text-gray-600"
                     />
                   </div>
