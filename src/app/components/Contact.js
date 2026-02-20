@@ -42,7 +42,6 @@ export default function Contact() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="relative overflow-hidden bg-gray-900 dark:bg-indigo-950/50 rounded-[2.5rem] shadow-2xl border border-white/5"
         >
-          {/* Animated Background Accents */}
           <motion.div
             animate={{ scale: [1, 1.2, 1], opacity: [0.2, 0.3, 0.2] }}
             transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
@@ -60,7 +59,6 @@ export default function Contact() {
           />
 
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2">
-            {/* Left Side: Value Proposition */}
             <div className="p-8 md:p-16 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-white/10 bg-white/5 backdrop-blur-md">
               <motion.div
                 initial={{ x: -20, opacity: 0 }}
@@ -125,7 +123,6 @@ export default function Contact() {
                 className="space-y-6"
               >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Name */}
                   <div className="space-y-2">
                     <label className="text-xs font-bold text-gray-400 uppercase tracking-widest ml-1">
                       Email Address
@@ -158,7 +155,6 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Message - Increased rows to 6 for better layout balance */}
                 <div className="space-y-2">
                   <label className="text-xs font-bold text-gray-400 uppercase tracking-widest ml-1">
                     Message
